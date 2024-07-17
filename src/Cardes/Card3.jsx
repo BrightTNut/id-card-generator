@@ -28,12 +28,12 @@ const Card1 = ({
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen  overflow-visible">
+    <div className="flex flex-col items-center justify-center h-screen">
       <div
         ref={cardRef}
-        className="relative h-[375px] w-[250px] rounded-lg overflow-visible shadow-lg"
+        className="relative h-[375px] w-[250px] rounded-lg overflow-hidden shadow-lg"
       >
-        <div className="bg-[#8338ec] h-[30%] w-full flex flex-col items-center rounded-t-lg">
+        <div className="bg-[#2cf38c] h-[30%] w-full flex flex-col items-center rounded-t-lg">
           <img
             src={image}
             alt="Uploaded"
