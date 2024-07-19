@@ -5,7 +5,11 @@ const app = express();
 
 // Middlewares
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://id-card-generator-pi.vercel.app/",
+  })
+);
 
 // MongoDB Connection
 mongoose
